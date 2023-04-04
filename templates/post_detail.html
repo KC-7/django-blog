@@ -61,7 +61,7 @@
                         {% with comments.count as total_comments %}
                         <strong class="text-secondary"><i class="far fa-comments"></i>
                             <!-- Our total_comments variable goes before the closing strong tag -->
-                            {{ total_comments }}
+                            <br>{{ total_comments }}
                         </strong>
                         {% endwith %}
                     </div>
@@ -109,7 +109,7 @@
                         <form method="post" style="margin-top: 1.3em;">
                             {{ comment_form | crispy }}
                             {% csrf_token %}
-                            <button type="submit" class="btn btn-signup btn-lg">Submit</button>
+                            <button type="submit" class="btn btn-signup btn-lg" style="margin-top: 1em;">Submit</button>
                         </form>
                     {% endif %}
                 {% endif %}
