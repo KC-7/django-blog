@@ -19,7 +19,7 @@ Ensure you have Python installed on your system. Then, follow these steps:
 
 1. Clone the repository:
    ```sh
-   git clone https://github.com/your-username/django-blog.git
+   git clone https://github.com/kc-7/django-blog.git
    ```
 2. Navigate to the project directory:
    ```sh
